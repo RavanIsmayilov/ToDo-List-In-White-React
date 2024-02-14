@@ -1,0 +1,148 @@
+.form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbfbfb;
+}
+
+.form_into {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 480px;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 0 5px rgba(192, 191, 191, 0.7);
+}
+
+.btn {
+  padding: 12.5px;
+  width: 59px;
+  margin-top: 7px;
+  border-radius: 12px;
+  border: none;
+  background-color: lightcoral;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+
+.todo {
+  padding: 10px;
+  width: 360px;
+  border-radius: 20px;
+  border: 1px solid blue;
+  margin-top: 10px;
+}
+
+.input {
+  display: flex;
+}
+
+.elements {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.elements label {
+  word-wrap: break-word;
+}
+
+
+.btn_edit{
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  margin-left: 15px;
+  background-color: lightcoral;
+  color: #fbfbfb;
+}
+
+.btn_edit:hover{
+  background-color: blue;
+}
+
+
+.btn_remove{
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  margin-left: 15px;
+  background-color: lightcoral;
+  color: #fbfbfb;
+}
+
+.btn_remove:hover{
+  background-color: blue;
+}
+
+.btn_complete_all{
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  margin-left: 15px;
+  background-color: lightcoral;
+  color: #fbfbfb;
+}
+
+.btn_complete_all:hover{
+  background-color: blue;
+}
+
+.btn_remove_completed{
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  margin-left: 15px;
+  background-color: lightcoral;
+  color: #fbfbfb;
+}
+
+.btn_remove_completed:hover{
+  background-color: blue;
+}
+
+.btn_toggle_completed{
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  margin-left: 15px;
+  background-color: lightcoral;
+  color: #fbfbfb;
+}
+
+.btn_toggle_completed:hover{
+  background-color: blue;
+}
+
+.completed_span{
+  color: blue;
+  font-weight: 600;
+  opacity: 0.7;
+  margin-left: 15px;
+}
